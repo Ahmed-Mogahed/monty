@@ -5,7 +5,6 @@
  * @file_name: the file namepath
  * Return: void
  */
-
 void open_file(char *file_name)
 {
 	FILE *fd = fopen(file_name, "r");
